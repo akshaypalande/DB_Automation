@@ -32,8 +32,8 @@ public class DB_Test extends Base_Class{
 			 con=this.setUp();
 			 PreparedStatement ps = con.prepareStatement("insert into student values(?,?,?,?)");
 			 ps.setInt(1,8);
-			 ps.setString(2, "Vaibhav");
-			 ps.setString(3, "Bohari");
+			 ps.setString(2, "Akshay");
+			 ps.setString(3, "Palande");
 			 ps.setString(4, "Akola");
 			 ps.executeUpdate();
 			 getTableData();
